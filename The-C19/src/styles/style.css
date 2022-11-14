@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Rock+Salt&family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Marcellus&family=Pathway+Gothic+One&family=Rock+Salt&family=Squada+One&display=swap');
+@import '~bootstrap/dist/css/bootstrap.css';
 
 .navbar {
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
@@ -14,7 +15,7 @@
 
 logo-web {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #0162B7;
+    color: #01b4b7;
 }
 
 .navbar {
@@ -22,18 +23,18 @@ logo-web {
     text-shadow: 2px;
     text-decoration: bold;
     font-size: 24px;
-    height: 110px;
+    height: 100px;
 }
 
 h2 {
-    color: #0162B7;
+    color: #01b4b7;
     margin-top: 50px;
     margin-bottom: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navbar-toggler {
-    background-color: rgba(0, 102, 255, 0.466);
+    background-color: #01b4b7;
 }
 
 .jumbotron {
@@ -84,7 +85,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 200px;
-    background-color: #124f99;
+    background-color: #005b5c;
     padding-top: 35px;
     margin-top: 100px;
     color: white;
@@ -95,6 +96,11 @@ footer {
 footer a {
     color: #aaa;
     font-size: 1em;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1024px) {
