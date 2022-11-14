@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Rock+Salt&family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Marcellus&family=Pathway+Gothic+One&family=Rock+Salt&family=Squada+One&display=swap');
+
 .navbar {
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
 }
@@ -100,6 +101,7 @@ footer a {
     .jumbotron {
         height: 825px;
     }
+
     footer {
         text-align: center;
         height: 350px;
